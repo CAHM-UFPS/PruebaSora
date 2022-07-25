@@ -1,3 +1,16 @@
+84 lines (62 sloc)  2.43 KB
+/**
+ * Observaciones:
+ * 1. Bien por el uso de Bootstrap y css
+ * 2. El formulario recibe números decimales, pero sólo hasta dos dígitos después de la coma
+ * 3. Muestra bien los datos en la tabla
+ * 4. Error al dar color a la definitiva cuando se ve reflejada en la tabla, solo se aplica el estilo a la primera columna debido al uso de un id
+ * 5. No se aprecia temas de redondeo en los datos ingresados
+ * 6. Se realiza bien el cálculo
+ *
+ * Progreso ---> 85% (Por favor corregir y terminar el ejercicio)
+ */
+
 let asignaturas = []
 function procesos(e) {
     e.preventDefault()
